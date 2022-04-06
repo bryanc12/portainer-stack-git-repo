@@ -4,11 +4,11 @@ FROM ubuntu:20.04
 ARG REPO
 
 # Create container work directory
-WORKDIR /application/
+# WORKDIR /application/
 
 # Move application bootloader into work directory
-COPY ./deploy.sh /application/
-RUN chmod +x /application/deploy.sh
+# RUN chmod +x /application/deploy.sh
 
-# Launch Application
-ENTRYPOINT /application/deploy.sh $REPO
+# # Launch Application
+# ENTRYPOINT /application/deploy.sh $REPO
+ENTRYPOINT ./deploy.sh
