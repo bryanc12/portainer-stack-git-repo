@@ -12,5 +12,6 @@ ARG REPO
 
 # # Launch Application
 # ENTRYPOINT /application/deploy.sh $REPO
-RUN chmod +x /deploy.sh
-ENTRYPOINT /deploy.sh
+RUN pwd
+RUN chmod +x ./deploy.sh
+ENTRYPOINT ./deploy.sh
