@@ -3,6 +3,7 @@ A pre-written template for deploying either a private or public repository on Po
 
 ## Requirement/s
    - A docker network named "reverse-proxy" for exposing the application
+   - The application have tobe able to install the dependencies itself by using a script. Example repository can be found in [a link](https://github.com/bryanc12/python-flask-hello-world)
 
 ## How to use
 \* Must follow the example given.
