@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  application:
+    container_name: ${CONTAINER_NAME?err}
+    build:
+      context: .
+      dockerfile: dockerfile
+    networks:
+      - application
+      - reverse-proxy
+    environment:
+      # REPO=https://{token_name}:{token_secret}@github.com/{username}/{repo}
+      - REPO={REPO?err}
+
+networks:
+  application:
+    name: ${CONTAINER_NAME?err}
+  reverse-proxy:
+    external: true
