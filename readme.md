@@ -21,6 +21,6 @@ A pre-written template for deploying either a private or public repository on Po
 8. Add env variable  
    ```
    CONTAINER_NAME=python-hello-world
-   REPO=https=https://github.com/bryanc12/python-flask-hello-world.git
+   REPO=https://github.com/bryanc12/python-flask-hello-world.git
    ```
 9. Deploy the Stack
