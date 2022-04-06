@@ -28,5 +28,6 @@ A pre-written template for deploying either a private or public repository on Po
    If the repository is private repository, a personal access token name and secret is required. Both token name and secret can be created from ```Settings > Developer Settings(Side Navbar) > Personal Access Token```.
    ```
    REPO=https://{token_name}:{token_secret}@github.com/{username}/{repo}
+   ```
 
 9. Deploy the Stack
