@@ -13,14 +13,14 @@ A pre-written template for deploying either a private or public repository on Po
 \* Must follow the example given.
 
 1. Stacks
-2. Add stack
-3. Fill in stack name
+2. Add Stack
+3. Fill in Stack Name
 4. Select Git Repository*
-5. Fill in repository url*  
+5. Fill in Repository Url*  
    ```
    https://github.com/bryanc12/portainer-stack-git-repo
    ```
-6. Fill in repository reference*  
+6. Fill in Repository Reference*  
    ```
    refs/heads/main
    ```
@@ -28,7 +28,7 @@ A pre-written template for deploying either a private or public repository on Po
    ```
    docker-compose.yml
    ```
-8. Add env variable  
+8. Add Env Variable  
    ```
    CONTAINER_NAME=python-hello-world
    REPO=https://github.com/bryanc12/python-flask-hello-world.git
