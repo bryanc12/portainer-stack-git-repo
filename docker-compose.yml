@@ -10,7 +10,6 @@ services:
       - application
       - reverse-proxy
     environment:
-      # REPO=https://{token_name}:{token_secret}@github.com/{username}/{repo}
       - REPO={REPO?err}
 
 networks:
