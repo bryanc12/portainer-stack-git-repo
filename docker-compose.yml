@@ -10,7 +10,7 @@ services:
       - application
       - reverse-proxy
     environment:
-      - REPO={REPO?err}
+      - REPO=${REPO?err}
 
 networks:
   application:
