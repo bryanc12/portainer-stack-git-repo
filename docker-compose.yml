@@ -11,6 +11,7 @@ services:
       - reverse-proxy
     environment:
       - REPO=${REPO?err}
+      - DEPENDENCIES=${DEPENDENCIES?err}
 
 networks:
   application:

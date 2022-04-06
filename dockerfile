@@ -11,4 +11,4 @@ COPY ./deploy.sh /application/
 RUN chmod +x /application/deploy.sh
 
 # Launch Application
-ENTRYPOINT /application/deploy.sh $REPO
+ENTRYPOINT /application/deploy.sh $DEPENDENCIES $REPO
