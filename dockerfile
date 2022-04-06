@@ -11,7 +11,7 @@ COPY ./deploy.sh /application/
 RUN chmod +x /application/deploy.sh
 
 # Install Git Application
-RUN apt-get install git
+RUN apt-get -y install git
 
 # Launch Application
 ENTRYPOINT /application/deploy.sh $REPO
