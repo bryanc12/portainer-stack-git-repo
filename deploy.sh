@@ -6,5 +6,5 @@ mkdir /application/git
 git clone "$REPO" /application/git
 echo git
 chmod +x /application/git/app.sh
-clear
+echo chmod
 /application/git/app.sh
