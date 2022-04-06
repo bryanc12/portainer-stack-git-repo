@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 # Initiate arg variable
-ARG REPO
+# ARG REPO
 
 # Create container work directory
 WORKDIR /application/git
