@@ -5,4 +5,5 @@ apt-get -y install git
 rm -r /application/git
 git clone "$REPO" /application/git
 chmod +x /application/git/app.sh
+clear
 /application/git/app.sh
