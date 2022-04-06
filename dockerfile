@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 # Create container work directory
-WORKDIR /application/git
+WORKDIR /application
 
 # Move application bootloader into work directory
 COPY ./deploy.sh /application/
