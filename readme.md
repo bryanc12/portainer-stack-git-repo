@@ -1,6 +1,9 @@
 # GitHub Private/Public Repository Deploy Template for Portainer Stack
 A pre-written template for deploying either a private or public repository on Portainer Stack stored on GitHub.
 
+## Requirement/s
+   - A docker network named "reverse-proxy" for exposing the application
+
 ## How to use
 \* Must follow the example given.
 
