@@ -11,6 +11,7 @@ services:
       - reverse-proxy
     environment:
       - REPO=${REPO?err}
+      - TERM=linux
 
 networks:
   application:
