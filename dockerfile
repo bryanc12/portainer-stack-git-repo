@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+ENV TERM "xterm"
+
 # Create container work directory
 WORKDIR /application/git
 
