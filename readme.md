@@ -2,8 +2,8 @@
 A pre-written template for deploying either a private or public repository on Portainer Stack stored on Git.
 
 ## Requirement/s
-   - A docker network named ```reverse-proxy``` for exposing the application.
-   - The application have tobe able to install the dependencies itself by using a script file named ```app.sh```. An example repository can be found [here](https://github.com/bryanc12/python-flask-hello-world).
+   - A docker network named ```reverse-proxy``` for exposing the application to the internet. (It require a reserve proxy in the network like [Nginx](https://github.com/nginx/nginx) [NPM](https://github.com/NginxProxyManager/nginx-proxy-manager) or [Traefik](https://github.com/traefik/traefik) to bridge the containers in it out to the internet)
+   - The application have to be able to install the dependencies itself by using a script file named ```app.sh```. An example repository can be found [here](https://github.com/bryanc12/python-flask-hello-world).
    ```
    apt-get install python3 pip
    python3 app.py
